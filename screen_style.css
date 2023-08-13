@@ -1,0 +1,37 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+  }
+  .texbox {
+    width: 80px;
+    height: 60px;
+    background-color: #000;
+    border-radius: 40px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3);
+    overflow: hidden;
+    margin-left: 5%; 
+  }
+ 
+  h4 {
+    color: #00ff00;
+    font-size: 16px;
+  }
+
+  input[type="text"] {
+    background-color: transparent;
+    border: none;
+    border-bottom: 0px solid #000000;
+    color: #00ff00;
+    padding: 5px;
+    outline: none;
+    caret-color: #00ff00; /* İmleç rengi */
+    font-size: 16px; /* Metin boyutu */
+    width: 300px; /* Metin kutusu genişliği */
+  }
+  
+  #errorText {
+    color: #00ff00; /* Sonuç metin rengini de cyber yeşili yap */
+  }
+
